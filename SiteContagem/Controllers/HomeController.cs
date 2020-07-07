@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -37,25 +37,25 @@ namespace SiteContagem.Controllers
 
         public IActionResult Teste1()
         {
-            TempData["Mensagem1"] = "Mensagem 1";
+            TempData["Mensagem1"] = "Vendo uno 4 portas  ";
             return View();
         }
 
         public IActionResult Teste2()
         {
-            TempData["Mensagem2"] = "Mensagem 2";
+            TempData["Mensagem2"] = "Se vale jaba.. se inscrevam no meu canal.. kkkkk https://youtube.com/user/julioarrudac";
             return View();
         }
 
         public IActionResult Teste3()
         {
-            TempData["Mensagem3"] = "Mensagem 3";
+            TempData["Mensagem3"] = "Mensagem 3 - Renato (e não o Bot) esteve aqui";
             return View();
         }
 
-        public IActionResult Teste4()
+        public IActionResult Teste4() 
         {
-            TempData["Mensagem4"] = "Mensagem 4";
+            TempData["Mensagem4"] = "Me sigam na Twitch : https://www.twitch.tv/tbertuzzi (propaganda 😉 ) ";
             return View();
         }
 
